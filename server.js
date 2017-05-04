@@ -12,9 +12,9 @@ app.get('/', function(req, res){
 //io listens for a connection and returns a socket
 io.on('connection',function(socket){
   //the socket listens for a chat and takes the message
-  socket.on('click',(drawing) => {
+  socket.on('drawClick',(data) => {
     //every time chat is received, send ('emit') the message
-    io.sockets.emit('click',drawing)
+    io.sockets.emit('drawClick')
   })
 })
 
