@@ -8,15 +8,6 @@ export default class CanvasContainer extends React.Component {
   }
 
 
-  // makeRectangle(){
-  //   context.fillstyle = 'orchid'
-  //   context.fillRect(10,10,50,50)
-  // }
-
-  // canvas.onmousemove = function(event){
-  //   drawCircle(event.x, event.y)
-  // }
-
   render(){
     return(
       <div id="canvas-container">
