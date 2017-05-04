@@ -5,7 +5,7 @@ import CanvasContainer from './containers/CanvasContainer';
 
 window.onload = () => {
   ReactDOM.render(
-    <CanvasContainer />,
+    <CanvasContainer id='canvas-container'/>,
     document.getElementById('app')
   );
 };
